@@ -1,0 +1,472 @@
+﻿<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Pasieka Kobla - Produkty pszczele. Sprzedaż najwyższej jakości miodu z polskiej pasieki, naturalny miód bez żadnych wspomagaczy, sprzedaż rojów pszczelich."
+    />
+    <meta
+      name="keywords"
+      content="Sprzedaż miodu,Pasieka,Miód,Naturalny miód,Pasieka Kobla,Na roztoczu, Miód z polskiej pasieki,Najwyższa jakość, Miód lipowy, Miód gryczany, Miód wielokwiatowy, Miód spadziowy, Miód rzepakowy, Miód Wrzosowy, Roje pszczele, Odkłady pszczele, Bez wspomagaczy, Produkty pszczele, Niskie Ceny"
+    />
+    <link rel="apple-touch-icon" href="obrazy/bee.svg" />
+    <link rel="canonical" href="https://www.pasiekakobla.pl/" />
+    <link rel="preload" href="css/style.css" as="style" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="obrazy/bee.svg" type="image/png" />
+    <title>Pasieka Kobla - Sprawdź najlepszy naturalny miód na roztoczu.</title>
+  </head>
+
+  <body>
+    <div id="loading">
+      <div class="bee-container">
+        <div class="wing-container">
+          <div class="wing" id="wing1"></div>
+          <div class="wing" id="wing2"></div>
+        </div>
+        <div class="face-container">
+          <div class="eye" id="right"></div>
+          <div class="smile"></div>
+        </div>
+        <div class="bee">
+          <div class="shadow"></div>
+          <div class="stripe" id="one"></div>
+          <div class="stripe" id="two"></div>
+          <div class="stripe" id="three"></div>
+          <div class="shine"></div>
+        </div>
+        <div class="leg-container">
+          <div class="leg" id="leg1"></div>
+          <div class="leg" id="leg2"></div>
+        </div>
+      </div>
+    </div>
+    <div id="container">
+      <div class="menu-wrap">
+        <div onclick="menu();" class="hamburger"><div></div></div>
+        <div class="menu">
+          <div>
+            <div>
+              <ul>
+                <li><a onclick="menu();Href('#');">Początek</a></li>
+                <li><a onclick="menu();Href('#produkty');">Produkty</a></li>
+                <li><a onclick="menu();Href('#kontakt');">Kontakt</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="box-shadow"></div>
+      <div id="grid"></div>
+      <header class="showcase section" id="start">
+        <div class="box showcase-inner">
+          <h1>MIÓD NATURALNY</h1>
+          <h2>i produkty pszczele</h2>
+          <h3>z pasieki na roztoczu</h3>
+          <a href="#about" class="btn">Dowiedz się więcej</a>
+        </div>
+      </header>
+      <div id="content">
+        <section id="about">
+          <div class="info">
+            <p>
+              <img src="obrazy/warranty.svg" alt="jakość" /><br />
+              Najwyższa jakość → <br />
+              Pasieka Kobla oferuje w pełni naturalny miód z polskiej pasieki,
+              wyprodukowany na roztoczu bez wspomagaczy. Sprawdź i przekonaj się
+              sam że mamy najlepszy miód na roztoczu.
+            </p>
+          </div>
+          <div class="info">
+            <p>
+              <img src="obrazy/money.svg" alt="moneta" /><br />
+              Niskie ceny →<br />
+              Sprzedajemy miód w najniższych cenach wraz z najlepszą jakością.
+              Płatność tylko gotówką.
+            </p>
+          </div>
+          <div class="info">
+            <p>
+              <img src="obrazy/bag.svg" alt="torba" /><br />
+              Sprzedaż miodu →<br />
+              W tym momencie możliwość odbioru osobistego lub dowóz w
+              niedalekiej odległości od siedziby.
+            </p>
+          </div>
+          <div class="info">
+            <p>
+              <img src="obrazy/box.svg" alt="paczki" /><br />
+              Wielkości →<br />
+              — Szklany słoik 500ml.<br />
+              — Szklany słoik 900ml.<br />
+              — Roje pszczele małe/duże<br />
+            </p>
+          </div>
+        </section>
+        <svg
+          id="vave"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 300"
+        >
+          <path
+            fill="#ffd700"
+            fill-opacity="1"
+            d="M0,192L12.6,192C25.3,192,51,192,76,186.7C101.1,181,126,171,152,186.7C176.8,203,202,245,227,272C252.6,299,278,309,303,288C328.4,267,354,213,379,160C404.2,107,429,53,455,69.3C480,85,505,171,531,181.3C555.8,192,581,128,606,138.7C631.6,149,657,235,682,229.3C707.4,224,733,128,758,112C783.2,96,808,160,834,202.7C858.9,245,884,267,909,245.3C934.7,224,960,160,985,122.7C1010.5,85,1036,75,1061,112C1086.3,149,1112,235,1137,250.7C1162.1,267,1187,213,1213,165.3C1237.9,117,1263,75,1288,85.3C1313.7,96,1339,160,1364,165.3C1389.5,171,1415,117,1427,90.7L1440,64L1440,320L1427.4,320C1414.7,320,1389,320,1364,320C1338.9,320,1314,320,1288,320C1263.2,320,1238,320,1213,320C1187.4,320,1162,320,1137,320C1111.6,320,1086,320,1061,320C1035.8,320,1011,320,985,320C960,320,935,320,909,320C884.2,320,859,320,834,320C808.4,320,783,320,758,320C732.6,320,707,320,682,320C656.8,320,632,320,606,320C581.1,320,556,320,531,320C505.3,320,480,320,455,320C429.5,320,404,320,379,320C353.7,320,328,320,303,320C277.9,320,253,320,227,320C202.1,320,177,320,152,320C126.3,320,101,320,76,320C50.5,320,25,320,13,320L0,320Z"
+          ></path>
+        </svg>
+        <div class="pre-title">Miody</div>
+        <section id="produkty">
+          <div id="lipowy" class="obrazy" onclick="popupe(this)">
+            <div class="obraz1 wysokosc hover"></div>
+            <div class="tekst_pod_obrazem">
+              <p>Lipowy</p>
+            </div>
+          </div>
+          <div id="gryczany" class="obrazy" onclick="popupe(this)">
+            <div class="obraz1 wysokosc hover"></div>
+            <div class="tekst_pod_obrazem">
+              <p>Gryczany</p>
+            </div>
+          </div>
+          <div id="wielokwiatowy" class="obrazy" onclick="popupe(this)">
+            <div class="obraz1 wysokosc hover"></div>
+            <div class="tekst_pod_obrazem">
+              <p>Wielokwiatowy</p>
+            </div>
+          </div>
+          <div id="spadziowy" class="obrazy" onclick="popupe(this)">
+            <div class="obraz1 wysokosc hover"></div>
+            <div class="tekst_pod_obrazem">
+              <p>Spadziowy</p>
+            </div>
+          </div>
+          <div id="rzepakowy" class="obrazy" onclick="popupe(this)">
+            <div class="obraz1 wysokosc hover"></div>
+            <div class="tekst_pod_obrazem">
+              <p>Rzepakowy</p>
+            </div>
+          </div>
+          <div id="wrzosowy" class="obrazy" onclick="popupe(this)">
+            <div class="obraz1 wysokosc hover"></div>
+            <div class="tekst_pod_obrazem">
+              <p>Wrzosowy</p>
+            </div>
+          </div>
+        </section>
+        <div class="pre-title">Produkty pszczele</div>
+        <section id="produkty2">
+          <div id="pyl" class="obrazy" onclick="popupe(this)">
+            <div class="pylek wysokosc hover"></div>
+            <div class="tekst_pod_obrazem">
+              <p>Pyłek</p>
+            </div>
+          </div>
+          <div id="roj" class="obrazy" onclick="popupe(this)">
+            <div class="roje wysokosc hover"></div>
+            <div class="tekst_pod_obrazem">
+              <p>Roje</p>
+            </div>
+          </div>
+        </section>
+        <div class="carousel">
+          <div class="carousel-track-con">
+            <div class="carousel-track">
+              <div class="carousel-slide first current-slide">
+                <img
+                  rel="preload"
+                  as="image"
+                  class="carousel-img"
+                  src="obrazy/webp/slide1.webp"
+                  alt="slide1"
+                />
+              </div>
+              <div class="carousel-slide">
+                <img
+                  rel="preload"
+                  as="image"
+                  class="carousel-img"
+                  src="obrazy/webp/slide2.webp"
+                  alt="slide2"
+                />
+              </div>
+              <div class="carousel-slide">
+                <img
+                  rel="preload"
+                  as="image"
+                  class="carousel-img"
+                  src="obrazy/webp/slide3.webp"
+                  alt="slide3"
+                />
+              </div>
+              <div class="carousel-slide">
+                <img
+                  rel="preload"
+                  as="image"
+                  class="carousel-img"
+                  src="obrazy/webp/slide4.webp"
+                  alt="slide4"
+                />
+              </div>
+            </div>
+          </div>
+          <button class="carousel-button carousel-button-right">
+            <img src="/obrazy/arrow.svg" loading="lazy" alt="arrow" />
+          </button>
+          <button class="carousel-button hidden carousel-button-left">
+            <img src="/obrazy/arrow.svg" loading="lazy" alt="arrow" />
+          </button>
+          <div class="carousel-nav">
+            <button
+              name="slide1"
+              aria-label="left"
+              class="carousel-indicator first current-slide"
+            ></button>
+            <button
+              name="slide2"
+              aria-label="center-left"
+              class="carousel-indicator"
+            ></button>
+            <button
+              name="slide3"
+              aria-label="center-right"
+              class="carousel-indicator"
+            ></button>
+            <button
+              name="slide4"
+              aria-label="right"
+              class="carousel-indicator"
+            ></button>
+          </div>
+        </div>
+        <section id="kontakt">
+          <div>
+            <h3>Wyślij nam wiadomość</h3>
+          </div>
+          <div class="kontact-con">
+            <form id="kontakt-form" action="form.php" method="POST">
+              <input
+                name="email"
+                type="email"
+                class="form"
+                placeholder="Twój email"
+                required
+              /><br />
+              <textarea
+                name="wiadomosc"
+                class="form"
+                placeholder="Wiadomość"
+                rows="6"
+                required
+              ></textarea
+              ><br />
+              <input type="submit" class="btn" value="Wyślij wiadomość" />
+            </form>
+          </div>
+        </section>
+      </div>
+      <footer id="footer" class="hide">
+        <div id="iko">
+          <div class="info">
+            <a
+              title="facebook"
+              rel="noreferrer"
+              target="_blank"
+              href="https://www.facebook.com/krystian.kobel.1"
+              ><img loading="lazy" src="obrazy/fb.svg" alt="facebook"
+            /></a>
+          </div>
+          <div class="info">
+            <a
+              title="youtube"
+              rel="noreferrer"
+              target="_blank"
+              href="https://www.youtube.com/channel/UCGnLmj07AJbwlcP6clSqPsA"
+              ><img loading="lazy" src="obrazy/yt.svg" alt="youtube"
+            /></a>
+          </div>
+          <div class="info">
+            <a
+              title="instagram"
+              rel="noreferrer"
+              target="_blank"
+              href="https://www.instagram.com/krystian.sw"
+            >
+              <img loading="lazy" src="obrazy/ig.svg" alt="instagram"
+            /></a>
+          </div>
+        </div>
+        <div class="info-tekst">
+          <p>Żurawnica 194</p>
+          <br />
+          <p>+48 666 058 085</p>
+          <br /><br />
+          <p>Pasieka Kobla | © COPYRIGHT</p>
+        </div>
+      </footer>
+    </div>
+    <div id="popups">
+      <div id="miody">
+        <div id="popup1" class="popup lipowy">
+          <div class="close" onclick="popupRemove()">
+            <div></div>
+          </div>
+          <div class="popup-content">
+            <div class="pop-title">
+              <h2>Miód Lipowy</h2>
+            </div>
+            <div class="obraz1 pop-zdj"></div>
+            <p class="cena">Cena: 40zł za 0.9l</p>
+            <p>
+              Miód lipowy jest stosowany przy przeziębieniach, grypie,
+              infekcjach górnych dróg oddechowych, zapaleniu oskrzeli i
+              zapaleniu płuc. Ma działanie napotne, przeciwkaszlowe, wykrztuśne
+              i przeciwskurczowe. Łagodzi stany zapalne i działa
+              przeciwgorączkowo.
+            </p>
+          </div>
+        </div>
+        <div id="popup2" class="popup gryczany">
+          <div class="close" onclick="popupRemove()">
+            <div></div>
+          </div>
+          <div class="popup-content">
+            <div class="pop-title">
+              <h2>Miód Gryczany</h2>
+            </div>
+            <div class="obraz1 pop-zdj"></div>
+            <p class="cena">Cena: 35zł za 0.9l</p>
+            <p>
+              Miód gryczany pozyskiwany jest przez pszczoły z kwiatów gryki.
+              Jest to ziarnisty miód o brązowej barwie*, piekącym, słodkim smaku
+              oraz silnym ziołowym aromacie. Jest to jeden z najzdrowszych
+              miodów wykazujący dużą antybiotyczność.
+            </p>
+          </div>
+        </div>
+        <div id="popup3" class="popup wielokwiatowy">
+          <div class="close" onclick="popupRemove()">
+            <div></div>
+          </div>
+          <div class="popup-content">
+            <div class="pop-title">
+              <h2>Miód Wielokwiatowy</h2>
+            </div>
+            <div class="obraz1 pop-zdj"></div>
+            <p class="cena">Cena: 35zł za 0.9l</p>
+            <p>
+              Drobnoziarnisty miód wielokwiatowy o wyrazistym kwiatowym, słodkim
+              smaku i aromacie. Kolor i smak miodu wielokwiatowego może się
+              różnić w zależności od pory zbiorów oraz kwiatów kwitnących w
+              danej okolicy.
+            </p>
+          </div>
+        </div>
+        <div id="popup4" class="popup spadziowy">
+          <div class="close" onclick="popupRemove()">
+            <div></div>
+          </div>
+          <div class="popup-content">
+            <div class="pop-title">
+              <h2>Miód Spadziowy</h2>
+            </div>
+            <div class="obraz1 pop-zdj"></div>
+            <p class="cena">Cena: 45zł za 0.9l</p>
+            <p>
+              Miód spadziowy, czyli miód ze spadzi. Aby zrozumieć trochę więcej,
+              jaki to rodzaj miodu, czego spodziewać się w smaku, kolorze,
+              konsystencji, a przede wszystkim: jakie są właściwości miodu
+              spadziowego, należy dowiedzieć się, skąd miód spadziowy się
+              bierze. Miód spadziowy iglasty, miód spadziowy liściasty, miód
+              nektarowo-spadziowy…
+            </p>
+          </div>
+        </div>
+        <div id="popup5" class="popup rzepakowy">
+          <div class="close" onclick="popupRemove()">
+            <div></div>
+          </div>
+          <div class="popup-content">
+            <div class="pop-title">
+              <h2>Miód Rzepakowy</h2>
+            </div>
+            <div class="obraz1 pop-zdj"></div>
+            <p class="cena">Cena: 30zł za 0.9l</p>
+            <p>
+              Kremowy miód rzepakowy o jasnej barwie, łagodnym smaku oraz
+              wyraźnym aromacie kwiatu rzepaku. Nasz miód rzepakowy ma kremową,
+              miękką konsystencję, łatwą do rozsmarowania.
+            </p>
+          </div>
+        </div>
+        <div id="popup6" class="popup wrzosowy">
+          <div class="close" onclick="popupRemove()">
+            <div></div>
+          </div>
+          <div class="popup-content">
+            <div class="pop-title">
+              <h2>Miód Wrzosowy</h2>
+            </div>
+            <div class="obraz1 pop-zdj"></div>
+            <p class="cena">Cena: 80zł za 0.9l</p>
+            <p>
+              Miód wrzosowy ze względu na trudność i pracochłonność w pozyskaniu
+              nazywany jest „Królem miodów”. Jest dostępny w niewielu pasiekach
+              również z powodu małej liczby wrzosowisk w Polsce. To z kolei
+              wpływa na jego cenę, która jest wyższa niż w przypadku innych
+              odmian miodu. Jest pozyskiwany od pszczół w okresie od lipca do
+              października. Miód ten jest bardzo esencjonalny i posiada
+              naturalny zapach wrzosu. Jego smak natomiast jest raczej gorzkawy
+              i ostry, co jest dość rzadkim zjawiskiem wśród odmian miodu.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="produkty">
+        <div id="popup8" class="popup pyl">
+          <div class="close" onclick="popupRemove()">
+            <div></div>
+          </div>
+          <div class="popup-content">
+            <div class="pop-title">
+              <h2>Pyłek</h2>
+            </div>
+            <div class="pylek pop-zdj"></div>
+            <p class="cena">Cena: 23zł za 225g</p>
+            <p>
+              Stosowanie: <br /><br />
+              Kurację należy rozpocząć od 1 łyżeczki pyłku, zwiększając do 1
+              łyżki stołowej dziennie. Pyłek wymieszać w połowie szklanki
+              letniej wody i odstawić na noc. Można dodać łyżeczkę miodu. Wypić
+              rano na czczo po uprzednim wymieszaniu (lepiej się przyswajają
+              wszystkie cenne witaminy ). Kuracja powinna trwać 2-3 miesiące.
+              Można ją stosować np. w sezonie jesiennym i wiosennym.
+            </p>
+          </div>
+        </div>
+        <div id="popup9" class="popup roj">
+          <div class="close" onclick="popupRemove()">
+            <div></div>
+          </div>
+          <div class="popup-content">
+            <div class="pop-title">
+              <h2>Roje</h2>
+            </div>
+            <div class="roje pop-zdj"></div>
+            <p class="cena">Cena: od 200zł do 350zł</p>
+            <p>
+              Roje/odkłady pszczele: Cena zależna jest od wielkości roju <br />
+              Roje wraz z matką.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="overlay" onclick="popupRemove()"></div>
+    </div>
+
+    <script async src="js/obs.js"></script>
+    <script async src="js/js.js"></script>
+  </body>
+</html>

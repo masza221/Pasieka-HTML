@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow:
+Sitemap: https://www.pasiekakobla.pl/sitemap4214124124124.xml

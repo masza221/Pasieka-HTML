@@ -1,0 +1,44 @@
+
+# Canonical https/www
+<IfModule mod_rewrite.c>	
+  RewriteCond %{HTTPS} !=on
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+	RewriteCond %{HTTP_HOST} !^www\. [NC]
+	RewriteRule (.*) https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+ErrorDocument 404  https://www.pasiekakobla.pl/404
+
+
+//Change default directory page
+DirectoryIndex start.html
+
+
+//Caching schema
+<FilesMatch "\.(css|js)$">
+Header set Cache-Control "public, max-age=86400"
+</FilesMatch>
+
+//Caching schema
+<FilesMatch "\.(webp|png|svg|jpg)$">
+Header set Cache-Control "max-age=72576000"
+</FilesMatch>
+
+
+<ifModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/xml text/css text/plain
+  AddOutputFilterByType DEFLATE text/javascript application/javascript application/x-javascript application/json
+</ifModule>
+
+
+//Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+ 
